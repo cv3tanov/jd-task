@@ -4,7 +4,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'cvetanov'
-description 'Оптимизиран интерфейс за текуща задача'
+description 'Скрипт за текуща задача'
 version '2.0.0'
 
 ui_page 'web/ui.html'
