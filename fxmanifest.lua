@@ -4,11 +4,14 @@ game 'gta5'
 lua54 'yes'
 
 author 'cvetanov'
-description 'Скрипт за текуща задача'
-version '2.0.0'
+description 'Оптимизиран интерфейс за текуща задача'
+version '3.0.2'
 
 ui_page 'web/ui.html'
 
-files { 'config.lua', 'web/ui.html', 'web/styles.css', 'web/scripts.js' }
+files { 'web/ui.html', 'web/styles.css', 'web/scripts.js' }
 
-client_script 'client.lua'
+client_scripts {
+    'config.lua',
+    'client.lua'
+}
