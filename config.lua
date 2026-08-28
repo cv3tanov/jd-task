@@ -1,8 +1,9 @@
-return {
+JDTaskConfig = {
     title = 'Текуща задача',
-    hide = {
-        command = 'hidetask',
-        description = 'Скрий текущата задача',
+    timerLabel = 'Оставащо време',
+    toggle = {
+        command = 'toggletask',
+        description = 'Скрий/покажи текущата задача',
         defaultKey = 'G'
-    },
+    }
 }
